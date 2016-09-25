@@ -25,14 +25,24 @@ for i in range(n):
 if count2 != 0:
 	ans[3] = ans[3] / float(count2)
 ans[4] = max(a5)
-for i in range(4):
+for i in range(5):
 	if ans[i] == 0:
 		print 'N',
 	elif i == 3:
 		print "%.1f" % ans[i],
 	else:
 		print ans[i],
-if ans[4] == 0:
-	print 'N'
-else:
-	print ans[4]
+'''这个解法得到17分，有三个案例没有通过，但起码没有格式问题
+说明这样解决最后一个数字不能有多余空格的方法是正确的'''
+
+# for i in range(4):
+# 	if ans[i] == 0:
+# 		print 'N',
+# 	elif i == 3:
+# 		print "%.1f" % ans[i],
+# 	else:
+# 		print ans[i],
+# if ans[4] == 0:
+# 	print 'N'
+# else:
+# 	print ans[4]
