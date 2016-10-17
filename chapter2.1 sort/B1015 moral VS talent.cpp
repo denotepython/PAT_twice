@@ -1,3 +1,4 @@
+//妙在在结构体中设置一个rank变量，用它来控制优先级
 #include <cstdio>
 #include <algorithm>
 using namespace std;
