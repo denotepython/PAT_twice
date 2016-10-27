@@ -5,7 +5,7 @@ int hashtable[maxn] = {0};
 int main(){
 	int first = 0, n, index;
 	scanf("%d", &n);
-	int temp[maxn];
+	int temp[100010];
 	for (int i = 0; i < n; ++i){
 		scanf("%d", &temp[i]);
 		hashtable[temp[i]]++;
